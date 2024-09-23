@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "2d2a9406-41ae-4888-b184-2cbef1818bc6",
+		"name": "Cep",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17477582"
+	},
+	"item": [
+		{
+			"name": "consulta-cep",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "lista-ceps",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uf\":\"SP\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/consulta-cep/lista-ceps",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"consulta-cep",
+						"lista-ceps"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
