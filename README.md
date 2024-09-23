@@ -1,6 +1,6 @@
 # Consulta de CEP com ViaCEP e Persistência de Logs
 
-Este projeto é uma API REST desenvolvida em **Java 11** com **Spring Boot**, que consome o serviço externo de consulta de CEPs do [ViaCEP](https://viacep.com.br/) e persiste as consultas realizadas em um banco de dados, utilizando **JPA** com **H2 Database** (ou **MySQL** opcionalmente). 
+Este projeto é uma API REST desenvolvida em **Java 11** com **Spring Boot**, que consome o serviço externo de consulta de CEPs do [ViaCEP](https://viacep.com.br/) e persiste as consultas realizadas em um banco de dados, utilizando **JPA** com **H2 Database** . 
 
 A API possui dois endpoints:
 1. `/consulta-cep/{cep}`: Consulta o CEP fornecido no ViaCEP e salva as informações no banco de dados.
